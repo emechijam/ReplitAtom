@@ -992,9 +992,6 @@ def main():
             )
             time.sleep(sleep_duration)
 
-
-if __name__ == "__main__":
-    try:
-        main()
 # sync.py (New final lines - Remove the `if __name__ == "__main__":` block)
 # ... The main() function ends here. No code below it.
+
