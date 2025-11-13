@@ -996,11 +996,5 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except KeyboardInterrupt:
-        logging.info("--- SYNC POLLER STOPPING (KeyboardInterrupt) ---")
-    except Exception as e:
-        logging.error(f"--- SYNC POLLER CRASHED: {e} ---")
-    finally:
-        if 'db_pool' in globals():
-            db_pool.closeall()
-            logging.info("Database connection pool closed.")
+# sync.py (New final lines - Remove the `if __name__ == "__main__":` block)
+# ... The main() function ends here. No code below it.
