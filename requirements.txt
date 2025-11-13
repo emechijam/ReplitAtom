@@ -1,0 +1,5 @@
+requests
+psycopg2-binary
+python-dotenv
+pytz
+python-dateutil # Included for robustness, as used by dateutil.parser
